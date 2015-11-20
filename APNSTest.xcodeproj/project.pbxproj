@@ -15,6 +15,13 @@
 		79EAAF7D1BFABC7600518396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EAAF7B1BFABC7600518396 /* LaunchScreen.storyboard */; };
 		79EAAF881BFABC7600518396 /* APNSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAF871BFABC7600518396 /* APNSTestTests.m */; };
 		79EAAF931BFABC7600518396 /* APNSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAF921BFABC7600518396 /* APNSTestUITests.m */; };
+		79EAAFA11BFABCB200518396 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFA01BFABCB200518396 /* CFNetwork.framework */; };
+		79EAAFA31BFABCBC00518396 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFA21BFABCBC00518396 /* libz.tbd */; };
+		79EAAFA51BFABCC600518396 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFA41BFABCC600518396 /* SystemConfiguration.framework */; };
+		79EAAFA71BFABCCE00518396 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFA61BFABCCE00518396 /* CoreTelephony.framework */; };
+		79EAAFA91BFABCDE00518396 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFA81BFABCDE00518396 /* libsqlite3.tbd */; };
+		79EAAFAF1BFABD3600518396 /* libXG-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAAFAB1BFABD3600518396 /* libXG-SDK.a */; };
+		79EAAFB01BFABD3600518396 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79EAAFAC1BFABD3600518396 /* ReleaseNotes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		79EAAF8E1BFABC7600518396 /* APNSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APNSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EAAF921BFABC7600518396 /* APNSTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNSTestUITests.m; sourceTree = "<group>"; };
 		79EAAF941BFABC7600518396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EAAFA01BFABCB200518396 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		79EAAFA21BFABCBC00518396 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		79EAAFA41BFABCC600518396 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79EAAFA61BFABCCE00518396 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		79EAAFA81BFABCDE00518396 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		79EAAFAB1BFABD3600518396 /* libXG-SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libXG-SDK.a"; sourceTree = "<group>"; };
+		79EAAFAC1BFABD3600518396 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		79EAAFAD1BFABD3600518396 /* XGPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPush.h; sourceTree = "<group>"; };
+		79EAAFAE1BFABD3600518396 /* XGSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSetting.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EAAFA91BFABCDE00518396 /* libsqlite3.tbd in Frameworks */,
+				79EAAFA71BFABCCE00518396 /* CoreTelephony.framework in Frameworks */,
+				79EAAFA51BFABCC600518396 /* SystemConfiguration.framework in Frameworks */,
+				79EAAFA31BFABCBC00518396 /* libz.tbd in Frameworks */,
+				79EAAFA11BFABCB200518396 /* CFNetwork.framework in Frameworks */,
+				79EAAFAF1BFABD3600518396 /* libXG-SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,12 @@
 		79EAAF611BFABC7600518396 = {
 			isa = PBXGroup;
 			children = (
+				79EAAFA81BFABCDE00518396 /* libsqlite3.tbd */,
+				79EAAFA61BFABCCE00518396 /* CoreTelephony.framework */,
+				79EAAFA41BFABCC600518396 /* SystemConfiguration.framework */,
+				79EAAFA21BFABCBC00518396 /* libz.tbd */,
+				79EAAFA01BFABCB200518396 /* CFNetwork.framework */,
+				79EAAFAA1BFABD3600518396 /* sdk */,
 				79EAAF6C1BFABC7600518396 /* APNSTest */,
 				79EAAF861BFABC7600518396 /* APNSTestTests */,
 				79EAAF911BFABC7600518396 /* APNSTestUITests */,
@@ -138,6 +166,17 @@
 				79EAAF941BFABC7600518396 /* Info.plist */,
 			);
 			path = APNSTestUITests;
+			sourceTree = "<group>";
+		};
+		79EAAFAA1BFABD3600518396 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				79EAAFAB1BFABD3600518396 /* libXG-SDK.a */,
+				79EAAFAC1BFABD3600518396 /* ReleaseNotes.txt */,
+				79EAAFAD1BFABD3600518396 /* XGPush.h */,
+				79EAAFAE1BFABD3600518396 /* XGSetting.h */,
+			);
+			path = sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +246,7 @@
 				TargetAttributes = {
 					79EAAF691BFABC7600518396 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W74983S55D;
 					};
 					79EAAF821BFABC7600518396 = {
 						CreatedOnToolsVersion = 7.1;
@@ -243,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EAAFB01BFABD3600518396 /* ReleaseNotes.txt in Resources */,
 				79EAAF7D1BFABC7600518396 /* LaunchScreen.storyboard in Resources */,
 				79EAAF7A1BFABC7600518396 /* Assets.xcassets in Resources */,
 				79EAAF781BFABC7600518396 /* Main.storyboard in Resources */,
@@ -413,10 +454,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ShengYun Li (9LQZ558996)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ShengYun Li (9LQZ558996)";
 				INFOPLIST_FILE = APNSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockyFung.APNSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b576e85-cb1f-4450-a7a8-61970fcd8ee9";
 			};
 			name = Debug;
 		};
@@ -424,10 +473,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ShengYun Li (9LQZ558996)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ShengYun Li (9LQZ558996)";
 				INFOPLIST_FILE = APNSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockyFung.APNSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b576e85-cb1f-4450-a7a8-61970fcd8ee9";
 			};
 			name = Release;
 		};
